@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     @IBAction func enterButton(_ sender: UIButton) {
         finalButton.text = myLabel.text
         sender.backgroundColor = .yellow
+        sender.tintColor = .black
     }
     
     
