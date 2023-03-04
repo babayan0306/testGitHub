@@ -39,6 +39,7 @@ class ViewController: UIViewController {
         } else {
             view.backgroundColor = .black
         }
+        myLabel.tintColor = .red
     }
 }
 
