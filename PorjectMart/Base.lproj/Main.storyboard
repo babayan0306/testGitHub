@@ -35,7 +35,9 @@
                                 <rect key="frame" x="175" y="513" width="43" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ok"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ok">
+                                    <color key="baseForegroundColor" red="0.99607849120000003" green="0.85784322020000003" blue="0.0078431377190000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kfR-AF-CJv"/>
                                 </connections>
