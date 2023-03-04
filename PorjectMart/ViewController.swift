@@ -33,5 +33,12 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func myTumbler(_ sender: UISwitch) {
+        if sender.isOn {
+            view.backgroundColor = .white
+        } else {
+            view.backgroundColor = .black
+        }
+    }
 }
 
